@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full-vnc
 
 RUN curl -fsSL https://tailscale.com/install.sh | sh \
      && sudo apt-get update -q \
