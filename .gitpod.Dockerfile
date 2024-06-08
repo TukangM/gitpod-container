@@ -1,5 +1,11 @@
 FROM gitpod/workspace-full
 
+RUN apt-get update && apt-get install -y \
+    curl \
+    gnupg \
+    apt-transport-https \
+    lsb-release
+
 RUN curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/jammy.gpg | apt-key add - \
     && curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/jammy.list | sudo tee /etc/apt/sources.list.d/tailscale.list
 
