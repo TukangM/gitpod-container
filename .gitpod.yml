@@ -1,1 +1,1 @@
-image: registry.hub.docker.com/jiteshsojitra/docker-ubuntu-xfce-container:latest
+image: registry.hub.docker.com/ondh/ubuntu-xfce-vnc:latest
