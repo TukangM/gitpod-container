@@ -1,0 +1,1 @@
+sudo tailscale set --advertise-exit-node
