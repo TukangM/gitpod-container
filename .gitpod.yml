@@ -1,1 +1,1 @@
-image: registry.hub.docker.com/tailscale/tailscale:latest
+image: registry.hub.docker.com/jiteshsojitra/docker-ubuntu-xfce-container:latest
